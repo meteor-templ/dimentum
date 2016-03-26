@@ -22,6 +22,8 @@ Adds an animation `dimentum` with the ability to configure some properties.
 * `inScaleY = [1, 0.8]`
 * `outScaleX = [0.8, 1]`
 * `outScaleY = [0.8, 1]`
+* `inEasing = 'ease'`
+* `outEasing = 'ease'`
 
 ### Example
 
