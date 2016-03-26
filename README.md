@@ -45,3 +45,8 @@ Template.document.helpers({
     dimentum: function() { return JSON.stringify({ inX: 2, inY: 0, outX: 2, outY: 0 }); }
 });
 ```
+
+## Versions
+
+### 0.0.2
+* Faster and smarter
