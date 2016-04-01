@@ -12,6 +12,8 @@ Momentum.registerPlugin('dimentum', function(options) {
                     .velocity({
                         ['scale'+vars[dimentum]]: [1,0],
                         opacity: 1
+                    }, {
+                        duration: 150
                     });
             } else {
                 $node
@@ -37,13 +39,15 @@ Momentum.registerPlugin('dimentum', function(options) {
                     queue: false,
                     complete: function() {
                         return $node.remove();
-                    }
+                    },
+                    duration: 150
                 });
             } else {
                 $node.velocity('fadeOut', {
                     complete: function() {
                         return $node.remove();
-                    }
+                    },
+                    duration: 100
                 });
             }
         }

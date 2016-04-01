@@ -1,6 +1,6 @@
 Package.describe({
   name: 'templ:dimentum',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Directed momentum animation.',
   git: 'https://github.com/meteor-templ/dimentum',
   documentation: 'README.md'
