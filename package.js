@@ -1,6 +1,6 @@
 Package.describe({
   name: 'templ:dimentum',
-  version: '0.1.1',
+  version: '0.1.3',
   summary: 'Directed momentum animation.',
   git: 'https://github.com/meteor-templ/dimentum',
   documentation: 'README.md'
@@ -9,13 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   
-  api.use('mongo');
   api.use('ecmascript');
-  api.use('templating');
-  api.use('less');
-  api.use('check');
-  api.use('random');
-  api.use('reactive-var');
   
   api.use('percolate:momentum@0.7.2');
   

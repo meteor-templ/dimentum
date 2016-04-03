@@ -1,5 +1,7 @@
 # Dimentum
 
+[GitHub](https://github.com/meteor-templ/dimentum) [Atmosphere.js](atmospherejs.com/templ/dimentum)
+
 Directed momentum animation.
 
 ## Install
@@ -22,6 +24,12 @@ meteor add templ:dimentum
 ```
 
 ## Versions
+
+### 0.1.3
+* Remove trash
+
+### 0.1.2
+* Faster
 
 ### 0.1.0
 * New simple sintax
